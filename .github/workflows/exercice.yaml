@@ -1,4 +1,4 @@
-name: Exercice workflow
+name: Exercice
 run-name: Running by @${{ github.actor }}
 on: 
   push:
@@ -13,3 +13,6 @@ jobs:
 
       - name: dependances installations
         run: npm install
+
+      - name: Build
+        run: npm run build
