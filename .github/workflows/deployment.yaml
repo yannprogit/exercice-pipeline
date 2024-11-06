@@ -16,5 +16,5 @@ jobs:
       - name: Notify Discord
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"content": "SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"}' \
+          -d '{"content": "https://tenor.com/view/airplane-dancing-dance-dance-moves-dancing-airplane-gif-18115923"}' \
           https://discord.com/api/webhooks/1303658916260872213/ok3NDEaJNpsKYNMbp7wH4k9SV1-akCHIgTJkqzmfgz-GWsHnDskGGV_YgS_qvMeucm7z
