@@ -14,7 +14,7 @@ jobs:
         run: echo "Deployed !"
 
       - name: Notify Discord
-              run: |
-                curl -X POST -H "Content-Type: application/json" \
-                -d '{"content": "SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"}' \
-                https://discord.com/api/webhooks/1303658916260872213/ok3NDEaJNpsKYNMbp7wH4k9SV1-akCHIgTJkqzmfgz-GWsHnDskGGV_YgS_qvMeucm7z
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"content": "SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"}' \
+          https://discord.com/api/webhooks/1303658916260872213/ok3NDEaJNpsKYNMbp7wH4k9SV1-akCHIgTJkqzmfgz-GWsHnDskGGV_YgS_qvMeucm7z
