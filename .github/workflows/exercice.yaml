@@ -1,0 +1,12 @@
+name: Exercice workflow
+run-name: Running by @${{ github.actor }}
+on: 
+  push:
+    branches: [master]
+
+jobs: 
+  run-node: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: dependances installations
+        run: npm install
