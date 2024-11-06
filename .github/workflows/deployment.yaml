@@ -1,0 +1,14 @@
+name: Deployment
+
+on:
+  workflow_run:
+    workflows: ["Exercice"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: echo "Deployed !"
