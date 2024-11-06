@@ -1,5 +1,5 @@
 name: Exercice
-run-name: Running by @${{ github.actor }}
+run-name: Running by ???
 on: 
   push:
     branches: [master]
@@ -16,6 +16,6 @@ jobs:
 
       - name: Run tests
         run: npm test
-        
+
       - name: Build
         run: npm run build
