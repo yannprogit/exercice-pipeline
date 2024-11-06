@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'test de l'app'",
-    "build": "echo 'Construire l'application...'"
+    "test": "echo 'App tested'",
+    "build": "echo 'App built'"
   },
   "author": "",
   "license": "ISC",
