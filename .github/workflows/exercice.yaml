@@ -8,5 +8,7 @@ jobs:
   run-node: 
     runs-on: ubuntu-latest
     steps: 
+      - uses: actions/checkout@v4
+      
       - name: dependances installations
         run: npm install
